@@ -1,0 +1,185 @@
+/* Задник всех боксов */
+.bg{
+	background-color: rgba(128,128,128,0.2); /* прозрачный фон */
+	border: 1px solid #222; /* Параметры рамки */
+	border-radius: 12px;
+}
+
+/* тело */
+body { 
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+	font: 12pt Arial, Helvetica, sans-serif; 
+	text-shadow: 0 0 2px #000;
+	margin: 0; /* Отступы на странице */
+	padding: 0;
+	color: #fff;/* Цвет текста*/
+}
+
+/* Комментарии */
+#comment_box{
+
+	padding: 12px 0px 0px 12px;
+	margin: 32px 0px 64px 316px;
+	width: 555px;
+}
+
+/* home */
+#home
+{
+	display: block;
+	background-color: rgba(128,128,128,0.2); /* прозрачный фон */
+	border: 1px solid #222; /* Параметры рамки */
+	border-radius: 12px;
+	font-size: 16pt;
+	padding: 8px;
+	width: 80px;
+}
+
+a
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+/* ************* Логинация ************* */
+
+#reg
+{
+	position: absolute;
+	padding: 4px;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+}
+
+#reg lable
+{
+	font-size: 10pt;
+	width: 100%;
+}
+
+#reg input
+{
+	height:16px; 
+	font-size: 8pt;
+}
+
+#reg a
+{
+	font-size: 10pt;
+	margin-right: 12px;
+}
+
+
+/* ************* хедер ************* */
+
+#header {
+	background-image: url("../images/header.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	height: 274px;
+	margin-left: 112px;
+	margin-bottom: 48px;
+	width: 1230px;
+	max-width: 1336px;
+}
+
+
+/* ************* Левая колонка ************* */
+
+#left_bar {
+	position: relative;
+	background-color: rgba(128,128,128,0.2); /* прозрачный фон */
+	float: left; /* Обтекание справа */
+	width: 150px; /* Ширина колонки */
+	padding: 0px 18px 18px 18px; /* Поля вокруг текста */
+	margin: 0px 0px 0px 112px; /* Значения отступов */
+	line-height: 1em;
+}
+
+/*Стиль ссылок левой панели*/
+
+#left_bar p
+{
+	margin: 12px 0;
+}
+
+#left_bar hr
+{
+	border: 1px solid #606060;
+}
+
+
+/* ************* центральная колонка ************* */
+
+#mid_bar{
+	margin: 12px 112px 24px 316px; /* Значения отступов */
+	width: 900px;
+}
+
+/* Посты */
+.post { 
+	position: relative;
+	padding: 0px 18px 18px 18px; /* Поля вокруг */
+	color:#ffffff;
+	margin: 0px 0px 64px 0px;
+	
+}
+
+/*Тема сообщения*/
+.theme { 
+	font: 26px Georgia, Times, serif;
+	font-family: "Impact";
+	position: relative;
+	background-image: url("../images/stripe.png"); /* картинка фона */
+	background-size: 42px 100%;
+	background-repeat: repeat-x;
+	margin:0px -18px 12px -18px;
+	padding: 0 0 12px 24px;
+	color: #fff; /* Цвет текста */
+	height: 42px;
+	border-radius: 12px 12px 0px 0px;
+	line-height: 52px;
+}
+
+/* Картинки в постах */
+.post img{
+	margin: 16px 0 16px 0;
+	max-width: 850px;
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+
+.post_date
+{
+	float: right;
+	margin-right: 16px;
+	font-size: 16px;
+}
+
+
+/* ************* fun_bar ************* */
+
+#fun_bar{
+	position: relative;
+
+	display: block;
+	width: 1336px;
+	max-width: 1342px;
+	border-radius: 0;
+	padding: 4px;
+}
+
+#fun_bar span
+{
+	cursor: pointer;
+	border-right: 1px solid #606060;
+	padding-right: 8px;
+	padding-left: 4px;
+}
+
+#time
+{
+	float: right;
+}

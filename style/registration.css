@@ -1,0 +1,24 @@
+body{
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+	color:#fff;
+	line-height: 32px;
+	text-shadow: 0 0 2px #000;
+}
+
+.text{
+	position: absolute;
+	left: 90px;
+}
+
+.main{
+	position: relative;
+	border: 1px solid #999;
+	border-radius: 12px;
+	padding: 12px 12px 12px 12px;
+	float: left;
+	min-width: 250px;
+	background-color: rgba(128,128,128,0.2);
+	margin-left: 37%;
+	margin-top: 6%; 
+}
